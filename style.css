@@ -1,0 +1,60 @@
+
+*{
+    
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    border: solid black 4px;
+    border-radius: 100%;
+    background-image: url(bg.webp);
+      background-size: cover;
+    display: flex;
+    background-color: rgba(128, 131, 133, 0.212);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+     flex-direction: column; 
+
+}
+
+#stopwatch{
+    font-size: 100px;
+    box-shadow: 0px 0px 10px black;
+  
+    padding: 10px;
+    color: white;
+    margin-bottom: 20px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+button{
+    font-size: larger;
+    background-color: red;
+    box-shadow: 0px 0px 10px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+    padding: 5px;
+    margin: 10px;
+
+}
+
+button:hover{
+    cursor: pointer;
+    color: white;
+}
+
+button:active{
+    background-color: rgb(105, 51, 51);
+}
+
+.write{
+    margin: 40px ;
+    font-size:70px ;
+    text-decoration:  rgb(226, 13, 13) underline;
+    font-weight: bolder;
+    color: black;
+}
